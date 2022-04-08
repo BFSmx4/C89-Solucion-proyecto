@@ -26,21 +26,21 @@ export default class HomeScreen extends Component {
                     </View>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
-                        this.props.navigation.navigate("SpaceCraft")
+                        this.props.navigation.navigate("Naves espaciales")
                     }>
                         <Text style={styles.routeText}>Naves espaciales</Text>
                         <Image source={require("../assets/space_crafts.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
-                        this.props.navigation.navigate("StarMap")
+                        this.props.navigation.navigate("Mapa estelar")
                     }>
                         <Text style={styles.routeText}>Mapa estelar</Text>
                         <Image source={require("../assets/star_map.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
-                        this.props.navigation.navigate("DailyPic")
+                        this.props.navigation.navigate("Imágenes diarias")
                     }>
                        <Text style={styles.routeText}>Imágenes diaras</Text>
                         <Image source={require("../assets/daily_pictures.png")} style={styles.routeImage}></Image>
